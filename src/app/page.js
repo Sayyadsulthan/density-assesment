@@ -1,10 +1,22 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import Image from "next/image";
+import styles from "./page.module.css";
+import Header from "@/components/header/Header";
+import "@mui/material";
+import Component1 from "@/components/component1/Component1";
+import Component2 from "@/components/component2/Component2";
+import Component3 from "@/components/component3/Component3";
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
+      <div style={{ padding: "10px", width: "80%" , margin:"auto"}}>
+        <Header />
+        <Component1 />
+        <Component2 />
+        <Component3 />
+      </div>
+
+      {/* <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
           <code className={styles.code}>src/app/page.js</code>
@@ -89,7 +101,7 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
-      </div>
+      </div> */}
     </main>
-  )
+  );
 }

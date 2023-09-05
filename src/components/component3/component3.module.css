@@ -1,0 +1,50 @@
+.component3Wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.component3Wrapper .top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: x-large;
+}
+
+.component3Wrapper .bottom{
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: space-around;
+    /* overflow: hidden; */
+}
+
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    /* flex-grow: 7; */
+    padding: 3%;
+    background-color: #eeebfe;
+    border-radius: 1.5rem;
+    margin-left: 50px;
+}
+
+.cardContainer .cardbodyTop{
+    display: flex;
+    flex-direction: row;
+}
+ /* .cardbodyTop .emoji{
+    border-radius: 50%;
+    width: 10px !important;
+} */
+.cardContainer .cardbodyBottom{
+    display:flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.cardbodyBottom p{
+    margin-top: 10px;
+}
