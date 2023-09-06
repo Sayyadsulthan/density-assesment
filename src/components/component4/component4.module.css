@@ -1,0 +1,150 @@
+.paperWrapper{
+    display: flex;
+    flex-direction: row;
+    height:300px;
+    width: 100%;
+    background-color: #fef7f1;
+    height: 600px;
+    /* overflow: hidden; */
+    border-radius: 1.5rem;
+}
+
+.paperLeft{
+    width:50%;
+    /* text-align: center; */
+    overflow: hidden;
+}
+ .leftTop{
+    margin: auto;
+    margin-top: 10%;
+    width: 80%;
+}
+
+.leftTop div{
+    margin-bottom: 5%;
+}
+
+.leftBottom{
+    /* padding: 10px; */
+    /* margin-top: 10%; */
+    overflow:hidden;
+}
+.paperRight{
+    width: 50%;
+}
+.paperRightcontainer{
+
+}
+
+.bigCircle{
+    position: relative;
+    left: -85px;
+    top: 210px;
+    height: 250px;
+    width: 250px;
+    background-color: #fae8dc;
+    border-radius: 50%;
+}
+.bigCircle2{
+    height: 200px;
+    width: 200px;
+    background-color:#f6f6f6;
+    position: relative;
+    top: -120px;
+    left: 120px;
+    pad: 100px;
+    border-radius: 50%;
+    /* justify-items: center; */
+}
+.whiteCircle{
+    height: 170px;
+    width: 170px;
+    top: 6%;
+    position: relative;
+    /* overflow: hidden; */
+    /* visibility: visible; */
+    background-color: #ffffff;
+    margin: auto;
+    border-radius: 50%;
+    /* box-shadow: #f1f0f0 1px 1px; */
+   
+}
+
+.dotCircleWrapper{
+    height: 50px;
+    width: 50px;
+    background-color: #f7d3bd;
+    position: relative;
+    top: -132px;
+    left: 299px;
+    border-radius: 50%;
+}
+
+.dotCircle{
+    position: relative;
+    overflow: visible;
+    top: 14px;
+    left: 15px;
+    height: 20px;
+    width: 20px;
+    background-color: #eb695b;
+    border-radius: 50%;
+}
+
+.flowerIconLB{
+    position: relative;
+    top: -433px;
+    left: 199px;
+}
+.avatarIcon{
+    position: relative;
+    top: -320px;
+    left: 128px;
+}
+
+.leafIconLB{
+    position: relative;
+    top: -300px;
+    left: 179px;
+    width: 70px;
+    height: 20px;
+    transform: rotate(-20deg);
+}
+
+.smallCircle{
+    height: 30px;
+    width: 30px;
+    background-color: #f3c7c8;
+    border-radius: 50%;
+    position: relative;
+    top: -390px;
+    left: 343px;
+}
+
+.paperRightFlower{
+    border-radius: 50%;
+    position: relative;
+    left: 80%;
+    top: -30px;
+}
+
+.paperRightLeaficon{
+    border-radius: 50%;
+    position: relative;
+    left: 60%;
+    transform: rotate(-20deg);
+    top: 30px;
+}
+
+.paperRightcontainer div{
+    margin-top: 30%;
+    width: 65%;
+    font-size: larger;
+    font-weight: 600;
+    font-weight: 500;
+    /* padding: 10%; */
+}
+.paperRightcontainer div p{
+    margin-bottom: 10px;
+    padding: 10px;
+}

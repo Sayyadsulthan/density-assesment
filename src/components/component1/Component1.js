@@ -5,7 +5,11 @@ const Component1 = () => {
   return (
     <>
       {/* <h1>Component1</h1> */}
-      <Image style={{ width: "100%" }} src={component1} alt="component1" />
+      <Image
+        style={{ width: "100%", marginTop: "100px" }}
+        src={component1}
+        alt="component1"
+      />
     </>
   );
 };

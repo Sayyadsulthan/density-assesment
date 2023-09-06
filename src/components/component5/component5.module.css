@@ -1,0 +1,75 @@
+.cmp5Wrappper{
+    width: 100%;
+    /* background-color: antiquewhite; */
+    margin-top: 40px;
+    border-radius: 1.5rem;
+    padding: 5%;
+}
+
+.cmp5Top{
+    padding: 10px;
+}
+.cmp5Top div{
+    font-size: large;
+    margin-bottom: 10px;
+}
+.topHead{
+    display: flex;
+}
+.straitLine{
+    position: relative;
+    /* top: -320px; */
+    top: -465px;
+    /* left: -17px; */
+    /* position: sticky; */
+
+    left: 5px;
+    height: 400px;
+    width: 0;
+    border: 1px solid #8062f2;
+}
+
+.cmp5Bottom {
+    word-wrap: break-word;
+    width: 80%;
+    margin: auto;
+    overflow: visible;
+    overflow-y: scroll;
+    height: 700px;
+    padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+    box-sizing: content-box; /* So the width will be 100% + 17px */
+    /* scrollbar-width: 0; */
+    /* background-color: aqua; */
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+}
+.cmp5Bottom::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+.list{
+    margin-left: 20px;
+    filter: blur(1px);
+}
+ .list:hover{
+    filter: blur(0px);
+    font-size: larger;
+    /* border-radius: 50%; */
+}
+
+
+
+ .list::before{
+    content: "\2022";  
+  color: #6341ef;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em; 
+  list-style-type: circle;
+    list-style-image: #6341ef;
+    font-size: larger;
+    border-radius: 50%;
+}
+
+/* ul{
+    list-style-image: #8062f2;
+} */

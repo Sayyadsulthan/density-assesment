@@ -1,0 +1,28 @@
+.cmp7Wrapper{
+    height: 500px;
+    background-color: #edf8fe;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cmp7Bottom{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cmp7Top{
+   justify-content: center;
+   margin: auto;
+}
+
+.smallFont{
+    font-size: large;
+    padding: 10px;
+}
+.largeFont{
+    font-size: xx-large;
+    font-weight: 900;
+    
+}

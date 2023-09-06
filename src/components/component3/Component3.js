@@ -13,7 +13,11 @@ const Component3 = () => {
           <Image src={icon} alt="" />
         </div>
         <div className={styles.bottom}>
-          <Card className={styles.cardContainer} variant="outlined">
+          <Card
+            style={{ backgroundColor: "#d8f2ff" }}
+            className={styles.cardContainer}
+            variant="outlined"
+          >
             <div className={styles.cardbodytop}>
               <Image
                 // style={{ }}
@@ -31,7 +35,11 @@ const Component3 = () => {
               </p>
             </div>
           </Card>
-          <Card className={styles.cardContainer} variant="outlined">
+          <Card
+            style={{ backgroundColor: "#eeebfe" }}
+            className={styles.cardContainer}
+            variant="outlined"
+          >
             <div className={styles.cardbodytop}>
               <Image
                 // style={{ width: 100, height: 100 }}
@@ -49,7 +57,11 @@ const Component3 = () => {
               </p>
             </div>
           </Card>
-          <Card className={styles.cardContainer} variant="outlined">
+          <Card
+            style={{ backgroundColor: "#6341ef" }}
+            className={styles.cardContainer}
+            variant="outlined"
+          >
             <div className={styles.cardbodytop}>
               <Image
                 // style={{ width: 100, height: 100 }}
@@ -67,7 +79,11 @@ const Component3 = () => {
               </p>
             </div>
           </Card>
-          <Card className={styles.cardContainer} variant="outlined">
+          <Card
+            style={{ backgroundColor: "#ffefd5" }}
+            className={styles.cardContainer}
+            variant="outlined"
+          >
             <div className={styles.cardbodytop}>
               <Image
                 // style={{ width: 100, height: 100 }}
@@ -96,8 +112,8 @@ export default Component3;
 const Style = {
   emoji: {
     borderRadius: "50%",
-    width: 100,
-    height: 100,
+    width: 80,
+    height: 80,
     padding: "10px",
   },
 };

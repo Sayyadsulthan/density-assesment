@@ -1,4 +1,8 @@
 import styles from "./component2.module.css";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const Component2 = () => {
   return (
